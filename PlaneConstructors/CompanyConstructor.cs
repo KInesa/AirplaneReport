@@ -10,14 +10,16 @@ namespace AirplaneReport.PlaneConstructors
 {
     public class CompanyConstructor
     {
+
         public int Id { get; private set; }
         public string CompanyName { get; set; }
         public int? CountryId { get; set; }
-    }
-    public Company(int id, string name, int? countryId)
-    {
-        Id = id;
-        CompanyName = name;
-        CountryId = countryId;
+
+        public CompanyConstructor(int id, string name, int countryId)
+        {
+            Id = id;
+            CompanyName = name;
+            CountryId = countryId;
+        }
     }
 }

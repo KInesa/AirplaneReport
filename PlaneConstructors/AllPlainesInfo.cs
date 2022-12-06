@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AirplaneReport.PlaneConstructors
 {
-    public struct AllPlainesInfo
+    public class AllPlainesInfo
     {
 
         private int aircraftTailNumber { get; set; }
