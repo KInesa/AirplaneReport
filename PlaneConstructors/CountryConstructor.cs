@@ -13,13 +13,14 @@ namespace AirplaneReport.PlaneConstructors
         public string Code { get; set; }
         public string Name { get; set; }
         public string Continent { get; set; }
-    }
- 
-    public Country(int countryId, string countryCode, string countryName, string continent)
-    {
-        Id = countryId;
-        Code = countryCode;
-        Name = countryName;
-        Continent = continent;
+
+
+        public CountryConstructor(int countryId, string countryCode, string countryName, string continent)
+        {
+            Id = countryId;
+            Code = countryCode;
+            Name = countryName;
+            Continent = continent;
+        }
     }
 }
